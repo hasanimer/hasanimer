@@ -1,4 +1,4 @@
-# Hasan İmer Akın
+# Hasan İmer
 
 **Avukat · LegalTech geliştiricisi** — İstanbul merkezli avukat; Türk hukuku için yapay zekâ destekli araçlar ve kaynak doğrulamalı bilgi altyapıları geliştiriyorum.
 
