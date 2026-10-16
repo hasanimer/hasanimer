@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="İmer. — Türk hukuku için birbirine bağlı araçlar">
+  <rect width="1200" height="320" fill="#f4e8d4"/>
+  <circle cx="1052" cy="62" r="26" fill="#fffaf0"/>
+  <circle cx="1052" cy="62" r="40" fill="none" stroke="#e3c69c" stroke-width="1.5" stroke-dasharray="3 6"/>
+  <path d="M0 210 C180 186 340 196 520 178 C760 154 940 168 1200 142 L1200 320 L0 320 Z" fill="#d8b68a"/>
+  <path d="M0 244 C200 224 420 236 640 218 C860 200 1020 214 1200 196 L1200 320 L0 320 Z" fill="#b5835a"/>
+  <path d="M0 282 C220 264 460 276 700 258 C920 242 1060 254 1200 240 L1200 320 L0 320 Z" fill="#7c4f30"/>
+  <path d="M120 292 l14 -34 M168 296 l-12 -30" stroke="#f0d5ab" stroke-width="3" stroke-linecap="round" opacity=".65" fill="none"/>
+  <text x="72" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="84" font-weight="700" fill="#24170e">İmer<tspan fill="#963b18">.</tspan></text>
+  <text x="76" y="168" font-family="Verdana, Geneva, sans-serif" font-size="19" letter-spacing="2" fill="#57402f">TÜRK HUKUKU İÇİN BİRBİRİNE BAĞLI ARAÇLAR</text>
+  <text x="76" y="196" font-family="Verdana, Geneva, sans-serif" font-size="15" letter-spacing="1" fill="#7a5c40">INTERCONNECTED TOOLS FOR TURKISH LAW · imer.app</text>
+</svg>
