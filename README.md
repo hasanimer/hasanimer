@@ -1,53 +1,74 @@
-![İmer. — Türk hukuku için birbirine bağlı araçlar](assets/banner.svg)
+<!-- gen:hero -->
+<p>
+  <a href="https://imer.app">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+      <img src="assets/hero.svg" width="100%" alt="Hasan İmer, Avukat · Yazılım geliştirici (Attorney · Software developer). imer.app: Türk hukuku için birbirine bağlı araçlar. Güneş sistemi haritası. Güneş: İmer Hukuk Araçları (imer.av.tr). Altyapı: Legaluga (legaluga.com). Gezegenler: ürünler. Atıf Denetimi, Karar Kütüphanesi, Legaluga Araştırma, Legaluga Araçları, Legaluga UYAP Asistanı, Legaluga UDF Editor, Legaluga Mobil (geliştiriliyor). Gezegenler: köprüler. Legaluga MCP, Skill Kütüphanesi (11 Claude &amp; Codex skill), İmer İmza Köprüsü (geliştiriliyor, kapalı beta), Legaluga Yaptırım Aynası. Kuşak: dış sistemler. Yargıtay, Danıştay, Anayasa Mahkemesi, AİHM, UYAP Emsal, Bedesten, Mevzuat ve Resmî Gazete, Kurum kararları, GİB/SPK/Borsa İstanbul, UYAP, PTT ve UETS, AdaletEimza, OFAC, Diğer yaptırım listeleri, TKGM ve ÇŞİDB, Yapay zekâ asistanları. Işıklar verinin aktığı yönü, kesikli çizgiler yoldaki bağlantıları gösterir.">
+    </picture>
+  </a>
+</p>
+<!-- /gen:hero -->
 
-# Hasan İmer
+Avukatlık yaparken karşılaştığım sorunlar için araçlar geliştiriyorum: hesaplayıcılar, UYAP belge araçları, karar ve mevzuat doğrulama altyapısı. Hepsi birbirine bağlı; haritası [imer.app](https://imer.app)'te.
 
-**Avukat · Yazılım geliştirici** — Avukatlık yaparken karşılaştığım sorunlar için araçlar geliştiriyorum: hesaplayıcılar, UYAP belge araçları, karar ve mevzuat doğrulama altyapısı.
+I build the tools I need in my own law practice: calculators, UYAP document tooling, and case-law and statute verification infrastructure. They all connect; the map is at [imer.app](https://imer.app).
 
-**Attorney · Software developer** — I build the tools I need in my own practice: calculators, UYAP document tooling, and case-law / statute verification infrastructure.
+<!-- gen:metrics -->
+<p>
+  <a href="https://imer.app">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/metrics-mobile.svg">
+      <img src="assets/metrics.svg" width="100%" alt="Ölçek · Scale. imer.app'te 17.10.2026'da görünen değerler; her rakamın kaynağı ve tarihi altında yazılı. 11,05 milyon karar künyesi Atıf Denetimi havuzunda (case citations in the citation-check pool; kaynak: legaluga.com/havuz/v1/manifest.json, 25.09.2026). 3.057 karar Karar Kütüphanesi'nde tam metniyle (full-text decisions in Karar Kütüphanesi; kaynak: legaluga.com/kararlar, 14.10.2026). 200+ araç, rehber ve istatistik sayfası imer.av.tr'nin araç listesinde (tools, guides and statistics pages listed on imer.av.tr; kaynak: imer.av.tr ana sayfası, 14.10.2026). 59 araç Legaluga MCP sunucusunda (tools on the Legaluga MCP server; kaynak: mcp.legaluga.com sağlık yoklaması, saatlik).">
+    </picture>
+  </a>
+</p>
 
-Merkez: **[imer.app](https://imer.app)** — bütün projelerin haritası / the map of everything below.
+<details>
+<summary>Rakamlar ve kaynakları · Figures and sources</summary>
 
-## Güneş sistemi / The system
+- **11,05 milyon** karar künyesi Atıf Denetimi havuzunda · case citations in the citation-check pool<br><sub>Kaynak / source: <code>legaluga.com/havuz/v1/manifest.json, 25.09.2026</code></sub>
+- **3.057** karar Karar Kütüphanesi'nde tam metniyle · full-text decisions in Karar Kütüphanesi<br><sub>Kaynak / source: <code>legaluga.com/kararlar, 14.10.2026</code></sub>
+- **200+** araç, rehber ve istatistik sayfası imer.av.tr'nin araç listesinde · tools, guides and statistics pages listed on imer.av.tr<br><sub>Kaynak / source: <code>imer.av.tr ana sayfası, 14.10.2026</code></sub>
+- **59** araç Legaluga MCP sunucusunda · tools on the Legaluga MCP server<br><sub>Kaynak / source: <code>mcp.legaluga.com sağlık yoklaması, saatlik</code></sub>
 
-imer.app'deki harita gibi: merkezde İmer Hukuk Araçları, etrafında Legaluga altyapısı, ürünler ve köprüler.
+<sub>imer.app'te 17.10.2026'da görünen değerler; her rakamın kaynağı ve tarihi altında yazılı. Figures as shown on imer.app on 17.10.2026; each one carries its source and date.</sub>
 
-| Katman | Nedir | Bağlantı |
-| --- | --- | --- |
-| Çekirdek | **İmer Hukuk Araçları** — 200+ ücretsiz hesaplama ve belge aracı | [imer.av.tr](https://imer.av.tr) |
-| Altyapı | **Legaluga** — kaynağı kayıtlı karar ve mevzuat verisi, atıf doğrulama motoru, MCP sunucusu | [legaluga.com](https://legaluga.com) |
-| Ürünler | UYAP Asistanı, UDF Editor, Atıf Denetimi, Karar Kütüphanesi, Legaluga Mobil | [imer.app](https://imer.app) |
-| Köprüler | Skill kütüphanesi, İmer İmza Köprüsü, Yaptırım Aynası | [imer.app](https://imer.app) |
+</details>
+<!-- /gen:metrics -->
 
-**Ölçek (Ekim 2026):** 11,05 milyon karar künyesi Atıf Denetimi havuzunda · 3.057 karar tam metniyle Karar Kütüphanesi'nde · 200+ araç imer.av.tr'de · 53 araç Legaluga MCP sunucusunda.
+<!-- gen:system -->
+<p>
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/system-mobile.svg">
+    <img src="assets/system.svg" width="100%" alt="Sistem · The system: imer.app haritasındaki katmanlar. Güneş (Core): İmer Hukuk Araçları, imer.av.tr. 200+ ücretsiz hesaplama, rehber ve belge aracı; UDF ve UYAP belge araçları. Free calculators, guides and UDF / UYAP document tools. Altyapı (Infrastructure): Legaluga, legaluga.com. “Kaynak yoksa iddia yoktur.” Kaynağı kayıtlı karar ve mevzuat verisi, atıf doğrulama motoru, MCP sunucusu. Source-recorded decision and statute data, citation-verification engine, MCP server. Gezegenler: ürünler (Products): Atıf Denetimi, Karar Kütüphanesi, Legaluga Araştırma, Legaluga Araçları, Legaluga UYAP Asistanı, Legaluga UDF Editor, Legaluga Mobil (geliştiriliyor). Gezegenler: köprüler (Bridges): Legaluga MCP, Skill Kütüphanesi (11 Claude &amp; Codex skill), İmer İmza Köprüsü (geliştiriliyor, kapalı beta), Legaluga Yaptırım Aynası. Kuşak: dış sistemler (External systems): Yargıtay, Danıştay, Anayasa Mahkemesi, AİHM, UYAP Emsal, Bedesten, Mevzuat ve Resmî Gazete, Kurum kararları, GİB/SPK/Borsa İstanbul, UYAP, PTT ve UETS, AdaletEimza, OFAC, Diğer yaptırım listeleri, TKGM ve ÇŞİDB, Yapay zekâ asistanları. Işıklar verinin aktığı yönü, kesikli çizgiler yoldaki bağlantıları gösterir. Lights show the direction data flows; dashed lines show the connections along the way.">
+  </picture>
+</p>
+<!-- /gen:system -->
 
-**Scale (Oct 2026):** 11.05M case citations in the citation-check pool · 3,057 full-text decisions · 200+ tools · 53 MCP tools.
+### Öne çıkan projeler · Featured projects
 
-## Öne çıkan projeler / Featured projects
-
-| Proje | Açıklama |
+| Proje · Project | Ne yapar · What it does |
 | --- | --- |
-| [kira-hukuku-skill](https://github.com/hasanimer/kira-hukuku-skill) | Kira tespit davaları için karar havuzu, mevzuat ve kaynak doğrulamalı Codex skill paketi |
-| [avukat-vergi-skill](https://github.com/hasanimer/avukat-vergi-skill) | Serbest çalışan avukatın vergi işleri için Claude Code skill'i: e-SMM, AAÜT vekalet ücreti, CMK/KDV tevkifatı, geçici ve yıllık vergi |
-| [legaluga-uyap-ui](https://github.com/hasanimer/legaluga-uyap-ui) | Legaluga UYAP Asistanı arayüzü (MIT): UYAP dosyalarını isimle bulup tek tıkla açan araçlar |
-| [legaluga-yaptirim-aynasi](https://github.com/hasanimer/legaluga-yaptirim-aynasi) | OFAC SDN ve Consolidated listelerinin resmî SHA-256 ile doğrulanmış GitHub Release aynası |
-| [borsa-mcp](https://github.com/hasanimer/borsa-mcp) | MCP server for Turkish & American stock exchange and fund data |
+| [**kira-hukuku-skill**](https://github.com/hasanimer/kira-hukuku-skill) | Kira tespit davaları için karar havuzu, mevzuat ve kaynak doğrulamalı Codex skill paketi<br><sub>Codex skill package for rent-determination cases, with a decision pool, statutes and source verification</sub> |
+| [**avukat-vergi-skill**](https://github.com/hasanimer/avukat-vergi-skill) | Serbest çalışan avukatın vergi işleri için Claude Code skill'i: e-SMM, AAÜT vekalet ücreti, CMK/KDV tevkifatı, geçici ve yıllık vergi<br><sub>Claude Code skill for a self-employed attorney's tax work: e-SMM, AAÜT fees, CMK/VAT withholding, provisional and annual tax</sub> |
+| [**legaluga-uyap-ui**](https://github.com/hasanimer/legaluga-uyap-ui) | Legaluga UYAP Asistanı arayüzü (MIT): UYAP dosyalarını isimle bulup tek tıkla açan araçlar<br><sub>Legaluga UYAP Assistant UI (MIT): find UYAP case files by name and open them in one click</sub> |
+| [**legaluga-yaptirim-aynasi**](https://github.com/hasanimer/legaluga-yaptirim-aynasi) | OFAC SDN ve Consolidated listelerinin resmî SHA-256 ile doğrulanmış GitHub Release aynası<br><sub>GitHub Release mirror of the OFAC SDN and Consolidated lists, verified against the official SHA-256</sub> |
+| [**borsa-mcp**](https://github.com/hasanimer/borsa-mcp) | Türk ve Amerikan borsaları ile fon verileri için MCP sunucusu<br><sub>MCP server for Turkish & American stock exchange and fund data</sub> |
 
-## İlkeler / Principles
+<!-- gen:principles -->
+<p>
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/principles-mobile.svg">
+    <img src="assets/principles.svg" width="100%" alt="İlkeler · Principles: 01. Belgeler cihazda kalır (Documents stay on the device.) Gerekmedikçe sunucuya bir şey gitmez; Atıf Denetimi ve UDF araçlarında metin ve belge tarayıcıdan çıkmaz. 02. Kaynak yoksa iddia yok (No source, no claim.) Legaluga'da karar resmî adresiyle, kanun maddesi Mevzuat Bilgi Sistemi bağlantısıyla gösterilir. Doğrulanamayan künye doğruymuş gibi sunulmaz. 03. Uydurma sayı yok (No invented numbers.) Ekrandaki rakamlar ölçülmüş kayıtlardan gelir; kaynağı ve tarihi yanında yazılı.">
+  </picture>
+</p>
+<!-- /gen:principles -->
 
-- **Veri kullanıcıda kalır** — Belge imzalanırken makineden çıkmaz, çalışma kayıtları tarayıcıda durur. / Data stays on the user's machine.
-- **Kaynağı olmayan cümle yok** — Hukuki bilgi gösteriliyorsa arkasındaki karar ya da madde de gösterilir. / No statement without its source.
-- **Uydurma sayı yok** — Ekrandaki her rakam gerçek bir kayıttan gelir. / No invented numbers.
+### İletişim · Contact
 
-## GitHub istatistikleri / GitHub stats
+- [imer.app](https://imer.app): portfolyo ve proje haritası · portfolio and project map
+- [imer.av.tr](https://imer.av.tr): ücretsiz hukuk araçları · free legal tools
+- [legaluga.com](https://legaluga.com): karar ve mevzuat altyapısı · legal-data infrastructure
+- [LinkedIn](https://www.linkedin.com/in/hasanimer/) · E-posta: [info@legaluga.com](mailto:info@legaluga.com)
 
-![GitHub istatistikleri](https://github-readme-stats.vercel.app/api?username=hasanimer&show_icons=true&locale=tr&bg_color=1C130C&title_color=F2B47C&text_color=F4E9D9&icon_color=E0B47C&border_color=3B2C20)
-![En çok kullanılan diller](https://github-readme-stats.vercel.app/api/top-langs/?username=hasanimer&layout=compact&locale=tr&bg_color=1C130C&title_color=F2B47C&text_color=F4E9D9&border_color=3B2C20)
-![Katkı serisi](https://streak-stats.demolab.com?user=hasanimer&locale=tr_TR&background=1C130C&border=3B2C20&stroke=3B2C20&ring=F2B47C&fire=E07A3E&currStreakNum=F4E9D9&sideNums=F4E9D9&currStreakLabel=F2B47C&sideLabels=C4B098&dates=9A7F68)
-
-## İletişim / Contact
-
-- [imer.app](https://imer.app) — portfolyo ve proje haritası / portfolio & project map
-- [imer.av.tr](https://imer.av.tr) — ücretsiz hukuk araçları / free legal tools
-- [legaluga.com](https://legaluga.com) — karar ve mevzuat altyapısı / legal-data infrastructure
-- [LinkedIn](https://www.linkedin.com/in/hasanimer/) · E-posta: info@legaluga.com
+<p align="center"><a href="https://imer.app"><img src="assets/mark.svg" width="40" height="40" alt="imer.app: Türk hukuku için birbirine bağlı araçlar"></a></p>
