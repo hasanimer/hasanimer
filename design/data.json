@@ -1,0 +1,151 @@
+{
+  "identity": {
+    "name": "Hasan İmer",
+    "eyebrow": "İMER.APP",
+    "hub": "imer.app",
+    "hub_url": "https://imer.app",
+    "tagline_tr": "Türk hukuku için birbirine bağlı araçlar.",
+    "tagline_en": "Interconnected tools for Turkish law.",
+    "role_tr": "Avukat · Yazılım geliştirici",
+    "role_en": "Attorney · Software developer"
+  },
+  "legend": [
+    { "layer": "core", "text": "Güneş: İmer Hukuk Araçları" },
+    { "layer": "infra", "text": "Altyapı" },
+    { "layer": "product", "text": "Gezegenler: ürünler" },
+    { "layer": "bridge", "text": "Gezegenler: köprüler" },
+    { "layer": "source", "text": "Kuşak: dış sistemler" }
+  ],
+  "caption_tr": "Işıklar verinin aktığı yönü, kesikli çizgiler yoldaki bağlantıları gösterir.",
+  "caption_en": "Lights show the direction data flows; dashed lines show the connections along the way.",
+  "metrics": {
+    "as_of": "17.10.2026",
+    "note_tr": "imer.app'te 17.10.2026'da görünen değerler; her rakamın kaynağı ve tarihi altında yazılı.",
+    "note_en": "Figures as shown on imer.app on 17.10.2026; each one carries its source and date.",
+    "items": [
+      {
+        "value": "11,05",
+        "unit": "milyon",
+        "label_tr": "karar künyesi Atıf Denetimi havuzunda",
+        "label_en": "case citations in the citation-check pool",
+        "source": "legaluga.com/havuz/v1/manifest.json, 25.09.2026",
+        "body": "Atıf Denetimi",
+        "layer": "product"
+      },
+      {
+        "value": "3.057",
+        "unit": "",
+        "label_tr": "karar Karar Kütüphanesi'nde tam metniyle",
+        "label_en": "full-text decisions in Karar Kütüphanesi",
+        "source": "legaluga.com/kararlar, 14.10.2026",
+        "body": "Karar Kütüphanesi",
+        "layer": "product"
+      },
+      {
+        "value": "200+",
+        "unit": "",
+        "label_tr": "araç, rehber ve istatistik sayfası imer.av.tr'nin araç listesinde",
+        "label_en": "tools, guides and statistics pages listed on imer.av.tr",
+        "source": "imer.av.tr ana sayfası, 14.10.2026",
+        "body": "İmer Hukuk Araçları",
+        "layer": "core"
+      },
+      {
+        "value": "59",
+        "unit": "",
+        "label_tr": "araç Legaluga MCP sunucusunda",
+        "label_en": "tools on the Legaluga MCP server",
+        "source": "mcp.legaluga.com sağlık yoklaması, saatlik",
+        "body": "Legaluga MCP",
+        "layer": "bridge",
+        "live": true
+      }
+    ]
+  },
+  "system": [
+    {
+      "layer": "core",
+      "label_tr": "Güneş",
+      "label_en": "Core",
+      "title": "İmer Hukuk Araçları",
+      "domain": "imer.av.tr",
+      "desc_tr": "200+ ücretsiz hesaplama, rehber ve belge aracı; UDF ve UYAP belge araçları.",
+      "desc_en": "Free calculators, guides and UDF / UYAP document tools."
+    },
+    {
+      "layer": "infra",
+      "label_tr": "Altyapı",
+      "label_en": "Infrastructure",
+      "title": "Legaluga",
+      "motto": "Kaynak yoksa iddia yoktur.",
+      "domain": "legaluga.com",
+      "desc_tr": "Kaynağı kayıtlı karar ve mevzuat verisi, atıf doğrulama motoru, MCP sunucusu.",
+      "desc_en": "Source-recorded decision and statute data, citation-verification engine, MCP server."
+    },
+    {
+      "layer": "product",
+      "label_tr": "Gezegenler: ürünler",
+      "label_en": "Products",
+      "items": [
+        { "name": "Atıf Denetimi" },
+        { "name": "Karar Kütüphanesi" },
+        { "name": "Legaluga Araştırma" },
+        { "name": "Legaluga Araçları" },
+        { "name": "Legaluga UYAP Asistanı" },
+        { "name": "Legaluga UDF Editor" },
+        { "name": "Legaluga Mobil", "note": "geliştiriliyor" }
+      ]
+    },
+    {
+      "layer": "bridge",
+      "label_tr": "Gezegenler: köprüler",
+      "label_en": "Bridges",
+      "items": [
+        { "name": "Legaluga MCP" },
+        { "name": "Skill Kütüphanesi", "note": "11 Claude & Codex skill" },
+        { "name": "İmer İmza Köprüsü", "note": "geliştiriliyor, kapalı beta" },
+        { "name": "Legaluga Yaptırım Aynası" }
+      ]
+    },
+    {
+      "layer": "source",
+      "label_tr": "Kuşak: dış sistemler",
+      "label_en": "External systems",
+      "items": [
+        { "name": "Yargıtay" },
+        { "name": "Danıştay" },
+        { "name": "Anayasa Mahkemesi" },
+        { "name": "AİHM" },
+        { "name": "UYAP Emsal" },
+        { "name": "Bedesten" },
+        { "name": "Mevzuat ve Resmî Gazete" },
+        { "name": "Kurum kararları" },
+        { "name": "GİB/SPK/Borsa İstanbul" },
+        { "name": "UYAP" },
+        { "name": "PTT ve UETS" },
+        { "name": "AdaletEimza" },
+        { "name": "OFAC" },
+        { "name": "Diğer yaptırım listeleri" },
+        { "name": "TKGM ve ÇŞİDB" },
+        { "name": "Yapay zekâ asistanları" }
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "title_tr": "Belgeler cihazda kalır",
+      "title_en": "Documents stay on the device.",
+      "body_tr": "Gerekmedikçe sunucuya bir şey gitmez; Atıf Denetimi ve UDF araçlarında metin ve belge tarayıcıdan çıkmaz."
+    },
+    {
+      "title_tr": "Kaynak yoksa iddia yok",
+      "title_en": "No source, no claim.",
+      "body_tr": "Legaluga'da karar resmî adresiyle, kanun maddesi Mevzuat Bilgi Sistemi bağlantısıyla gösterilir. Doğrulanamayan künye doğruymuş gibi sunulmaz."
+    },
+    {
+      "title_tr": "Uydurma sayı yok",
+      "title_en": "No invented numbers.",
+      "body_tr": "Ekrandaki rakamlar ölçülmüş kayıtlardan gelir; kaynağı ve tarihi yanında yazılı."
+    }
+  ]
+}
